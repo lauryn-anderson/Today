@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    var data = Data()
+    
     var body: some View {
-        Text("Hello, world!").padding()
+        List(data.goals, id: \.id) { goal in
+            GoalView(goal: goal)
+        }
     }
 }
 
