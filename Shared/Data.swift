@@ -7,10 +7,11 @@
 
 import Foundation
 
-class Goal: ObservableObject, Identifiable {
+struct Goal: Identifiable {
     var title = "Goal"
-    var time = 0
+    var time = Date()
     var isComplete = false
+    var id = UUID()
 }
 
 class Data: ObservableObject {

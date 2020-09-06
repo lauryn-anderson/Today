@@ -11,8 +11,13 @@ struct ContentView: View {
     var data = Data()
     
     var body: some View {
-        List(data.goals, id: \.id) { goal in
-            GoalView(goal: goal)
+        NavigationView {
+            List(data.goals) { goal in
+                NavigationLink(destination: GoalDetailView(data: data, goal: goal)) {
+                    GoalView(data: data, goal: goal)
+                }
+            }
+            .navigationBarTitle("Today")
         }
     }
 }

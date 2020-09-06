@@ -17,6 +17,8 @@
 		14A2DF942500A3490056FC47 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2DF922500A3490056FC47 /* Data.swift */; };
 		14A2DF962500A4020056FC47 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2DF952500A4020056FC47 /* GoalView.swift */; };
 		14A2DF972500A4020056FC47 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2DF952500A4020056FC47 /* GoalView.swift */; };
+		14A2DF9925015F890056FC47 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2DF9825015F890056FC47 /* GoalDetailView.swift */; };
+		14A2DF9A25015F890056FC47 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2DF9825015F890056FC47 /* GoalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		14A2DF832500A2E00056FC47 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		14A2DF922500A3490056FC47 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		14A2DF952500A4020056FC47 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		14A2DF9825015F890056FC47 /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 				14A2DF732500A2E00056FC47 /* Assets.xcassets */,
 				14A2DF922500A3490056FC47 /* Data.swift */,
 				14A2DF952500A4020056FC47 /* GoalView.swift */,
+				14A2DF9825015F890056FC47 /* GoalDetailView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -196,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A2DF862500A2E00056FC47 /* ContentView.swift in Sources */,
+				14A2DF9925015F890056FC47 /* GoalDetailView.swift in Sources */,
 				14A2DF932500A3490056FC47 /* Data.swift in Sources */,
 				14A2DF842500A2E00056FC47 /* TodayApp.swift in Sources */,
 				14A2DF962500A4020056FC47 /* GoalView.swift in Sources */,
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A2DF872500A2E00056FC47 /* ContentView.swift in Sources */,
+				14A2DF9A25015F890056FC47 /* GoalDetailView.swift in Sources */,
 				14A2DF942500A3490056FC47 /* Data.swift in Sources */,
 				14A2DF852500A2E00056FC47 /* TodayApp.swift in Sources */,
 				14A2DF972500A4020056FC47 /* GoalView.swift in Sources */,
